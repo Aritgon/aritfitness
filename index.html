@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arit Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  /* CSS Reset */
+  body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    /* margin: 0px;
+    padding: 0px; */
+     background:url(img/222222.jpg);
+    background-color: rgb(31, 28, 28);
+    height: 0%;
+  }
+  .left{
+    position: absolute;
+    left: 33px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red;  */
+  }
+  .left img{
+    margin: auto;
+    width: 90px;
+    /* this is to filter colors of logos or images */
+    /* filter: invert(100%); */
+  }
+  .left div{
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .center{
+    display: block;
+    width: 45%;
+    /* border: 2px solid green;  */
+    margin: 30px 550px;
+  }
+  .right{
+    position: absolute;
+    right: 55px;
+    top: 32px;
+    display: inline-block;
+    /* border: 2px solid yellow;  */
+  }
+  .navbar{
+    display: inline-block; 
+  }
+  .navbar li{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+  }
+  .navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 30px;
+  }
+  .navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: goldenrod;
+  }
+  .btn{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 3px;
+    background-color: rgb(44, 44, 185);
+    color: white;
+    padding: 8px 14px;
+    /* border: 2px solid greenyellow; */
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: rgb(36, 27, 27);
+  }
+  .container{
+    /* border: 2px solid green; */
+    border-radius: 9px;
+    margin: 170px 900px;
+    padding: 30px;
+    width: 45%;
+    border-radius: 6px;
+  }
+  .formgroup input{
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    width: 330px;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .container h1{
+      text-align: center;
+    }
+    .container button{
+      display: block;
+      width: 60%;
+      margin: 12px auto;
+      background-color: none;
+    }
+    .container1{
+      /* border: 2px solid red; */
+      width: 15%;
+      margin: -700px 100px;
+      padding: 20px;
+      border-radius: 8px;
+      /* border: 2px solid red; */
+      background-image: url('img/dumbbell-g5566987ab_1920.jpg');  
+    }
+    .container1 img{
+      height: 0;
+      width: 0;
+      margin: auto;
+    }
+    .container1 h1{
+      font-size: 50px;
+      text-decoration: underline;
+      text-align: center;
+    }
+    .container1 ul{
+      padding: 9px;
+    }
+    .container1 li{
+      margin: 7px;
+      font-size: 23px;
+      list-style: none;
+      text-align: center;
+    }
+    .container2{
+      margin: 850px 450px;
+      /* border: 1px solid white; */
+      width: 50%;
+      padding: 6px;
+      background-color: rgb(41, 12, 68);
+    }
+    #lorem{
+      margin: 4px 4px;
+      font-size: 450%;
+    }
+    /* .footer{
+      border: 2px solid red;
+    } */
+</style>
+<body>
+  <header class="header">
+    <!-- left box for logo -->
+    <div class="left">
+      <img src="img/45671.jpg" alt="">
+      <!-- <div><strong>Soham Fitness</strong></div> -->
+    </div>
+    <!-- center box for nav bar -->
+    <div class="center">
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Fitness-Calculator</a></li>
+        <li><a href="#">Trainers</a></li>
+      </ul>
+    </div>
+    <!-- right box for buttons -->
+    <div class="right">
+      <button class="btn">
+        Call us to know more!
+      </button>
+      <!-- <button class="btn">
+        Email us
+      </button> -->
+    </div>
+  </header>
+  <div class="container">
+    <h1>Join the best and new fitness center of burdwan now</h1>
+    <form action="noaction.php">
+      <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your name">
+      </div>
+      <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your age">
+      </div>
+      <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your gender">
+      </div>
+      <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your locality">
+      </div>
+      <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your ph number">
+      </div>
+      <button class="btn">
+        Submit
+      </button>
+      <p>*we will send you a message when you are eligible</p>
+    </form>
+  </div>
+  <div class="container1">
+    <ul>
+      <h1>Features</h1>
+      <li>Unisex gym</li>
+      <li>24/7 open</li>
+      <li>water availability</li>
+      <li>Fully Air conditioned</li>
+      <li>Trainers available</li>
+      <li>bodybuilding training (competition)</li>
+      <li>powerlifting training (competition)</li>
+      <li>weight and cardio training</li>
+      <li>Medical service</li>
+    </ul>
+  </div>
+  <div class="container2">
+    <h1>about us</h1>
+    <div class="about us" id="lorem">
+      better than oxygen :)
+    </div>
+  </div>
+  <!-- <div class="footer">
+  <footer>
+    i am footer
+  </footer> -->
+</div>
+</body>
+</html>
